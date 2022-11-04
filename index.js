@@ -23,12 +23,12 @@ function addBookToLibrary(){
 
 
   const div = document.querySelector('#bookShelf')
-  for (let i = 0; i < myLibrary.length; i++){
+
   let newP = document.createElement('p')
   newP.innerText = `${theTitle} by ${theAuthor} is ${numOfPages} long`;
   div.append(newP)
 }
-}
+
 
 
 
