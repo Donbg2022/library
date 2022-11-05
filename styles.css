@@ -42,3 +42,19 @@ input{
 #add-book{
   padding: 10px;
 }
+#x{
+  margin-left: auto;
+  padding: 5px;
+  background-color: white;
+  width: 20px;
+  border-radius: 25px;
+}
+#x:hover{
+  cursor: grab;
+}
+
+
+/* styles for dom made elements */
+p{
+  margin-left: 25px;
+}
