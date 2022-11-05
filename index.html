@@ -4,21 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 <body>
-  <button id="btn">NEW BOOK</button>
+  <div id="newbookdiv"><button id="add-book">NEW BOOK</button></div>
+
+  
 
   <div class="form">
-    <form action="#">
-      <label for="author">Author</label>
-      <input id="author" name="author"type="text">
-      <label for="title">Title</label>
-      <input id="title" name="title"type="text">
-      <label for="pages">Pages</label>
-      <input id="pages" name="pages"type="text">
-      <label for="readStatus">Read Status</label>
-      <input id="read" name="readStatus"type="text">
+    <form id="theform"action="#">
+      <p class="formp">
+        <label for="author">Author</label>
+        <input id="author" name="author"type="text">
+      </p>
+      <p class="formp">
+        <label for="title">Title</label>
+        <input id="title" name="title"type="text">
+      </p>
+      <p class="formp">
+        <label for="pages">Pages</label>
+        <input id="pages" name="pages"type="text">
+      </p>
+      <p class="formp">
+        <label for="readStatus">Read Status</label>
+        <input id="read" name="readStatus"type="text">
+      </p>
+      <div><button id="btn">ADD BOOK</button></div>
     </form>
   </div>
 

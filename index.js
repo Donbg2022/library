@@ -12,7 +12,7 @@ function book(author, title, pages, read) {
 
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', addBookToLibrary)
-
+//add book to library when inputs are filled
 function addBookToLibrary(){
   const theAuthor = document.getElementById("author").value
   const theTitle = document.getElementById("title").value
@@ -28,6 +28,10 @@ function addBookToLibrary(){
   newP.innerText = `${theTitle} by ${theAuthor} is ${numOfPages} long`;
   div.append(newP)
 }
+
+
+//popup the form when button is clicked
+
 
 
 
